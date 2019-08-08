@@ -257,29 +257,24 @@ opacity: 0.7;
     
     .moth-in-darkness{
 	width: 100%;
-	width: 363px;
-	float: center 100px;
-	margin-left: 50px;
-	margin-top: 40px;
+    position: relative;
+    top: 20px;
+    left: -40px;
 	-webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000; 
 	box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000;
     }
     
-    .moth-in-darkness{
-        position: relative;
-        top: 20px;
-        left: -40px;
-    }
-    
     .red-damnation{
-        position: relative;
-        top: 20px;
-        left: 10px;
-    }
+    position: relative;
+    top: 20px;
+    width: 100%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000; 
+    box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000;
+        }
 
-    #seemore{
-        position: relative;
-        top:50px;
+        #seemore{
+            position: relative;
+            top:50px;
     }
 
     
