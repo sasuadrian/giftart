@@ -75,7 +75,7 @@ body {
 
 .mycat{
 	position: relative;
-	left: 780px;
+	left: 910px;
 }
 /*end cat*/
  
@@ -208,4 +208,79 @@ opacity: 0.7;
 .thumbnail:hover {
   box-shadow: 1px 1px 9px grey;
   
+}
+
+@media only screen and (max-width: 800px) {
+    .mycat{
+        position: relative;
+        left: 140px;
+    }
+    
+    .cat{
+	width: 104%;
+	position: relative;
+	left: -2px;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000; 
+	box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000;
+    }
+    
+    .a_head {
+    position: relative;
+	width: 103%;
+    top: 20px;
+    right: -11px;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000; 
+	box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000;
+    }
+    
+    .a_body {
+    position: relative;
+    top: 40px;
+    left: -50px;
+	width: 103%;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000; 
+	box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000;
+    }
+    
+    .skeleton{
+    top: 20px;
+    position: relative;
+	width: 100%;
+    left: 6px;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000; 
+	box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000;
+    }
+    
+    .kirita{
+        display: none;
+    }
+    
+    .moth-in-darkness{
+	width: 100%;
+	width: 363px;
+	float: center 100px;
+	margin-left: 50px;
+	margin-top: 40px;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000; 
+	box-shadow: 0px 10px 13px -7px #000000, 2px 3px 15px 6px #000000;
+    }
+    
+    .moth-in-darkness{
+        position: relative;
+        top: 20px;
+        left: -40px;
+    }
+    
+    .red-damnation{
+        position: relative;
+        top: 20px;
+        left: 10px;
+    }
+
+    #seemore{
+        position: relative;
+        top:50px;
+    }
+
+    
 }
